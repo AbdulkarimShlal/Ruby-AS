@@ -184,3 +184,6 @@ async def trigger_scaling(strategy_name: str):
         })
 
     return scaling_decision
+
+# Start Prometheus Client HTTP server
+start_http_server(8000)  # Start Prometheus client on port 8000
